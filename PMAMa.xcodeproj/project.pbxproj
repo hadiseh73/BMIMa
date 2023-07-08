@@ -16,6 +16,7 @@
 		558005772A59383200D16E19 /* BMIMaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005762A59383200D16E19 /* BMIMaTests.swift */; };
 		558005812A59383200D16E19 /* BMIMaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005802A59383200D16E19 /* BMIMaUITests.swift */; };
 		558005832A59383200D16E19 /* BMIMaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */; };
+		55860BA22A598A540094B95A /* AppColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55860BA12A598A540094B95A /* AppColorSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5580055C2A59382E00D16E19 /* BMIMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580055C2A59382E00D16E19 /* PMAMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMAMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5580055F2A59382E00D16E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558005612A59382E00D16E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		558005632A59382E00D16E19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +45,12 @@
 		558005682A59383100D16E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5580056B2A59383100D16E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5580056D2A59383100D16E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		558005722A59383200D16E19 /* BMIMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		558005722A59383200D16E19 /* PMAMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558005762A59383200D16E19 /* BMIMaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaTests.swift; sourceTree = "<group>"; };
-		5580057C2A59383200D16E19 /* BMIMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5580057C2A59383200D16E19 /* PMAMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558005802A59383200D16E19 /* BMIMaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaUITests.swift; sourceTree = "<group>"; };
 		558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55860BA12A598A540094B95A /* AppColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 		558005532A59382E00D16E19 = {
 			isa = PBXGroup;
 			children = (
-				5580055E2A59382E00D16E19 /* BMIMa */,
-				558005752A59383200D16E19 /* BMIMaTests */,
-				5580057F2A59383200D16E19 /* BMIMaUITests */,
+				5580055E2A59382E00D16E19 /* PMAMa */,
+				558005752A59383200D16E19 /* PMAMaTests */,
+				5580057F2A59383200D16E19 /* PMAMaUITests */,
 				5580055D2A59382E00D16E19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,17 +91,18 @@
 		5580055D2A59382E00D16E19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5580055C2A59382E00D16E19 /* BMIMa.app */,
-				558005722A59383200D16E19 /* BMIMaTests.xctest */,
-				5580057C2A59383200D16E19 /* BMIMaUITests.xctest */,
+				5580055C2A59382E00D16E19 /* PMAMa.app */,
+				558005722A59383200D16E19 /* PMAMaTests.xctest */,
+				5580057C2A59383200D16E19 /* PMAMaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5580055E2A59382E00D16E19 /* BMIMa */ = {
+		5580055E2A59382E00D16E19 /* PMAMa */ = {
 			isa = PBXGroup;
 			children = (
 				5580055F2A59382E00D16E19 /* AppDelegate.swift */,
+				55860BA12A598A540094B95A /* AppColorSet.swift */,
 				558005612A59382E00D16E19 /* SceneDelegate.swift */,
 				558005632A59382E00D16E19 /* ViewController.swift */,
 				558005652A59382E00D16E19 /* Main.storyboard */,
@@ -107,32 +110,32 @@
 				5580056A2A59383100D16E19 /* LaunchScreen.storyboard */,
 				5580056D2A59383100D16E19 /* Info.plist */,
 			);
-			path = BMIMa;
+			path = PMAMa;
 			sourceTree = "<group>";
 		};
-		558005752A59383200D16E19 /* BMIMaTests */ = {
+		558005752A59383200D16E19 /* PMAMaTests */ = {
 			isa = PBXGroup;
 			children = (
 				558005762A59383200D16E19 /* BMIMaTests.swift */,
 			);
-			path = BMIMaTests;
+			path = PMAMaTests;
 			sourceTree = "<group>";
 		};
-		5580057F2A59383200D16E19 /* BMIMaUITests */ = {
+		5580057F2A59383200D16E19 /* PMAMaUITests */ = {
 			isa = PBXGroup;
 			children = (
 				558005802A59383200D16E19 /* BMIMaUITests.swift */,
 				558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */,
 			);
-			path = BMIMaUITests;
+			path = PMAMaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5580055B2A59382E00D16E19 /* BMIMa */ = {
+		5580055B2A59382E00D16E19 /* PMAMa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 558005862A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMa" */;
+			buildConfigurationList = 558005862A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMa" */;
 			buildPhases = (
 				558005582A59382E00D16E19 /* Sources */,
 				558005592A59382E00D16E19 /* Frameworks */,
@@ -142,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = BMIMa;
+			name = PMAMa;
 			productName = BMIMa;
-			productReference = 5580055C2A59382E00D16E19 /* BMIMa.app */;
+			productReference = 5580055C2A59382E00D16E19 /* PMAMa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		558005712A59383200D16E19 /* BMIMaTests */ = {
+		558005712A59383200D16E19 /* PMAMaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 558005892A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMaTests" */;
+			buildConfigurationList = 558005892A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMaTests" */;
 			buildPhases = (
 				5580056E2A59383200D16E19 /* Sources */,
 				5580056F2A59383200D16E19 /* Frameworks */,
@@ -160,14 +163,14 @@
 			dependencies = (
 				558005742A59383200D16E19 /* PBXTargetDependency */,
 			);
-			name = BMIMaTests;
+			name = PMAMaTests;
 			productName = BMIMaTests;
-			productReference = 558005722A59383200D16E19 /* BMIMaTests.xctest */;
+			productReference = 558005722A59383200D16E19 /* PMAMaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5580057B2A59383200D16E19 /* BMIMaUITests */ = {
+		5580057B2A59383200D16E19 /* PMAMaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5580058C2A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMaUITests" */;
+			buildConfigurationList = 5580058C2A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMaUITests" */;
 			buildPhases = (
 				558005782A59383200D16E19 /* Sources */,
 				558005792A59383200D16E19 /* Frameworks */,
@@ -178,9 +181,9 @@
 			dependencies = (
 				5580057E2A59383200D16E19 /* PBXTargetDependency */,
 			);
-			name = BMIMaUITests;
+			name = PMAMaUITests;
 			productName = BMIMaUITests;
-			productReference = 5580057C2A59383200D16E19 /* BMIMaUITests.xctest */;
+			productReference = 5580057C2A59383200D16E19 /* PMAMaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 558005572A59382E00D16E19 /* Build configuration list for PBXProject "BMIMa" */;
+			buildConfigurationList = 558005572A59382E00D16E19 /* Build configuration list for PBXProject "PMAMa" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5580055B2A59382E00D16E19 /* BMIMa */,
-				558005712A59383200D16E19 /* BMIMaTests */,
-				5580057B2A59383200D16E19 /* BMIMaUITests */,
+				5580055B2A59382E00D16E19 /* PMAMa */,
+				558005712A59383200D16E19 /* PMAMaTests */,
+				5580057B2A59383200D16E19 /* PMAMaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55860BA22A598A540094B95A /* AppColorSet.swift in Sources */,
 				558005642A59382E00D16E19 /* ViewController.swift in Sources */,
 				558005602A59382E00D16E19 /* AppDelegate.swift in Sources */,
 				558005622A59382E00D16E19 /* SceneDelegate.swift in Sources */,
@@ -286,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		558005742A59383200D16E19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5580055B2A59382E00D16E19 /* BMIMa */;
+			target = 5580055B2A59382E00D16E19 /* PMAMa */;
 			targetProxy = 558005732A59383200D16E19 /* PBXContainerItemProxy */;
 		};
 		5580057E2A59383200D16E19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5580055B2A59382E00D16E19 /* BMIMa */;
+			target = 5580055B2A59382E00D16E19 /* PMAMa */;
 			targetProxy = 5580057D2A59383200D16E19 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIMa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMIMa";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMAMa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PMAMa";
 			};
 			name = Debug;
 		};
@@ -534,7 +538,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIMa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BMIMa";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PMAMa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PMAMa";
 			};
 			name = Release;
 		};
@@ -577,7 +581,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		558005572A59382E00D16E19 /* Build configuration list for PBXProject "BMIMa" */ = {
+		558005572A59382E00D16E19 /* Build configuration list for PBXProject "PMAMa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				558005842A59383200D16E19 /* Debug */,
@@ -586,7 +590,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		558005862A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMa" */ = {
+		558005862A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				558005872A59383200D16E19 /* Debug */,
@@ -595,7 +599,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		558005892A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMaTests" */ = {
+		558005892A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5580058A2A59383200D16E19 /* Debug */,
@@ -604,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5580058C2A59383200D16E19 /* Build configuration list for PBXNativeTarget "BMIMaUITests" */ = {
+		5580058C2A59383200D16E19 /* Build configuration list for PBXNativeTarget "PMAMaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5580058D2A59383200D16E19 /* Debug */,
