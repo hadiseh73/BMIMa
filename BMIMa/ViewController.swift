@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblBMI: UILabel!
     @IBOutlet weak var backgroundImage: UIImageView!
     
-    var height : Float = 0
-    var weight : Float = 0
-    var BMI : Float = 0
+    var height : Int = 0
+    var weight : Int = 0
+    var BMI : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,9 +52,9 @@ class ViewController: UIViewController {
     
     private func setupBMI() {
         
-        self.height = self.heightSlider.value
-        self.weight = self.weightSlider.value
-        self.BMI = self.weight / ((self.height * self.height)/10000)
+        self.height = Int(self.heightSlider.value)
+        self.weight = Int(self.weightSlider.value)
+        self.BMI = (self.weight*10000) / (self.height * self.height)
         self.lblBMI.text = "Your BMI is :  \(self.BMI)  kg/m2"
         self.lblCurrentHeight.text = "\(Int(self.height)) cm"
         self.lblCurrentWeight.text = "\(Int(self.weight)) kg"
