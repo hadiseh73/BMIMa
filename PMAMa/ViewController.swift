@@ -38,6 +38,9 @@ class ViewController: UIViewController {
         self.setSliderThumbTintColor(slider: self.weightSlider, AppColor.primary01)
         self.setSliderThumbTintColor(slider: self.heightSlider, AppColor.primary01)
         
+        self.labelsEffectView.layer.cornerRadius = 8
+        self.labelsEffectView.layer.masksToBounds = true
+        
         self.effectView.layer.cornerRadius = 16
         self.effectView.layer.masksToBounds = true
     }
