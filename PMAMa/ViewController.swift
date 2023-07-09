@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let randomImage = [ "12","16","18","22"]
+    let randomImage = ["12","14","16","18","20","22","24","26","28","30","32","34","36","38","40"]
     
     @IBOutlet weak var btnShare: UIButton!
     @IBOutlet weak var heightSlider: UISlider!
