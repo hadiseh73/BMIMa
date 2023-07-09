@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "pmamapackages",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hadiseh73/PMAMaPackages.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d3fd7c6497076f87aa85764ba6a0c540293ae9c2"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5547CCC92A5A907900B695F4 /* PMAMaPackages in Frameworks */ = {isa = PBXBuildFile; productRef = 5547CCC82A5A907900B695F4 /* PMAMaPackages */; };
 		558005602A59382E00D16E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580055F2A59382E00D16E19 /* AppDelegate.swift */; };
 		558005622A59382E00D16E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005612A59382E00D16E19 /* SceneDelegate.swift */; };
 		558005642A59382E00D16E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005632A59382E00D16E19 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5547CCC92A5A907900B695F4 /* PMAMaPackages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = PMAMa;
+			packageProductDependencies = (
+				5547CCC82A5A907900B695F4 /* PMAMaPackages */,
+			);
 			productName = BMIMa;
 			productReference = 5580055C2A59382E00D16E19 /* PMAMa.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 558005532A59382E00D16E19;
+			packageReferences = (
+				5547CCC72A5A907900B695F4 /* XCRemoteSwiftPackageReference "PMAMaPackages" */,
+			);
 			productRefGroup = 5580055D2A59382E00D16E19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -618,6 +626,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5547CCC72A5A907900B695F4 /* XCRemoteSwiftPackageReference "PMAMaPackages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hadiseh73/PMAMaPackages.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5547CCC82A5A907900B695F4 /* PMAMaPackages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5547CCC72A5A907900B695F4 /* XCRemoteSwiftPackageReference "PMAMaPackages" */;
+			productName = PMAMaPackages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 558005542A59382E00D16E19 /* Project object */;
 }
