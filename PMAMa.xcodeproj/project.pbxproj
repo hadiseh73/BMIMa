@@ -13,9 +13,9 @@
 		558005672A59382E00D16E19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558005652A59382E00D16E19 /* Main.storyboard */; };
 		558005692A59383100D16E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558005682A59383100D16E19 /* Assets.xcassets */; };
 		5580056C2A59383100D16E19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5580056A2A59383100D16E19 /* LaunchScreen.storyboard */; };
-		558005772A59383200D16E19 /* BMIMaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005762A59383200D16E19 /* BMIMaTests.swift */; };
-		558005812A59383200D16E19 /* BMIMaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005802A59383200D16E19 /* BMIMaUITests.swift */; };
-		558005832A59383200D16E19 /* BMIMaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */; };
+		558005772A59383200D16E19 /* PMAMaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005762A59383200D16E19 /* PMAMaTests.swift */; };
+		558005812A59383200D16E19 /* PMAMaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005802A59383200D16E19 /* PMAMaUITests.swift */; };
+		558005832A59383200D16E19 /* PMAMaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558005822A59383200D16E19 /* PMAMaUITestsLaunchTests.swift */; };
 		55860BA22A598A540094B95A /* AppColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55860BA12A598A540094B95A /* AppColorSet.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +46,10 @@
 		5580056B2A59383100D16E19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5580056D2A59383100D16E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558005722A59383200D16E19 /* PMAMaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAMaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		558005762A59383200D16E19 /* BMIMaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaTests.swift; sourceTree = "<group>"; };
+		558005762A59383200D16E19 /* PMAMaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMAMaTests.swift; sourceTree = "<group>"; };
 		5580057C2A59383200D16E19 /* PMAMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMAMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		558005802A59383200D16E19 /* BMIMaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaUITests.swift; sourceTree = "<group>"; };
-		558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIMaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		558005802A59383200D16E19 /* PMAMaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMAMaUITests.swift; sourceTree = "<group>"; };
+		558005822A59383200D16E19 /* PMAMaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMAMaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		55860BA12A598A540094B95A /* AppColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +116,7 @@
 		558005752A59383200D16E19 /* PMAMaTests */ = {
 			isa = PBXGroup;
 			children = (
-				558005762A59383200D16E19 /* BMIMaTests.swift */,
+				558005762A59383200D16E19 /* PMAMaTests.swift */,
 			);
 			path = PMAMaTests;
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 		5580057F2A59383200D16E19 /* PMAMaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				558005802A59383200D16E19 /* BMIMaUITests.swift */,
-				558005822A59383200D16E19 /* BMIMaUITestsLaunchTests.swift */,
+				558005802A59383200D16E19 /* PMAMaUITests.swift */,
+				558005822A59383200D16E19 /* PMAMaUITestsLaunchTests.swift */,
 			);
 			path = PMAMaUITests;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558005772A59383200D16E19 /* BMIMaTests.swift in Sources */,
+				558005772A59383200D16E19 /* PMAMaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558005812A59383200D16E19 /* BMIMaUITests.swift in Sources */,
-				558005832A59383200D16E19 /* BMIMaUITestsLaunchTests.swift in Sources */,
+				558005812A59383200D16E19 /* PMAMaUITests.swift in Sources */,
+				558005832A59383200D16E19 /* PMAMaUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L58QM5399L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMIMa/Info.plist;
+				INFOPLIST_FILE = PMAMa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Bankino;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -478,7 +478,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L58QM5399L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BMIMa/Info.plist;
+				INFOPLIST_FILE = PMAMa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Bankino;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

@@ -1,6 +1,6 @@
 //
 //  AppColorSet.swift
-//  BMIMa
+//  PMAMa
 //
 //  Created by HadisehSafaei on 4/17/1402 AP.
 //

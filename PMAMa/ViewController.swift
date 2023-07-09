@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  BMIMa
+//  PMAMa
 //
 //  Created by HadisehSafaei on 4/17/1402 AP.
 //
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         self.setSliderThumbTintColor(slider: self.weightSlider, AppColor.primary01)
         self.setSliderThumbTintColor(slider: self.heightSlider, AppColor.primary01)
         
-        self.effectView.layer.cornerRadius = 20
+        self.effectView.layer.cornerRadius = 16
         self.effectView.layer.masksToBounds = true
     }
     

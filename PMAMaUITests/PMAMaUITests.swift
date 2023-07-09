@@ -1,13 +1,13 @@
 //
-//  BMIMaUITests.swift
-//  BMIMaUITests
+//  PMAMaUITests.swift
+//  PMAMaUITests
 //
 //  Created by HadisehSafaei on 4/17/1402 AP.
 //
 
 import XCTest
 
-final class BMIMaUITests: XCTestCase {
+final class PMAMaUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

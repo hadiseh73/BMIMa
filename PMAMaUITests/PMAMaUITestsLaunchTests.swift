@@ -1,13 +1,13 @@
 //
-//  BMIMaUITestsLaunchTests.swift
-//  BMIMaUITests
+//  PMAMaUITestsLaunchTests.swift
+//  PMAMaUITests
 //
 //  Created by HadisehSafaei on 4/17/1402 AP.
 //
 
 import XCTest
 
-final class BMIMaUITestsLaunchTests: XCTestCase {
+final class PMAMaUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
