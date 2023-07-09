@@ -105,7 +105,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="9Ch-bL-CAz">
+                                            <slider opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="40" minValue="40" maxValue="200" translatesAutoresizingMaskIntoConstraints="NO" id="9Ch-bL-CAz">
                                                 <rect key="frame" x="-2" y="39.5" width="291" height="31.5"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="maximumTrackTintColor" name="AppPrimary02"/>
@@ -151,7 +151,7 @@
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="10" maxValue="300" translatesAutoresizingMaskIntoConstraints="NO" id="NXa-rm-XKj">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="120" maxValue="220" translatesAutoresizingMaskIntoConstraints="NO" id="NXa-rm-XKj">
                                                 <rect key="frame" x="-2" y="39.5" width="291" height="31.5"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="maximumTrackTintColor" name="AppPrimary02"/>

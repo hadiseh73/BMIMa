@@ -61,9 +61,9 @@ class ViewController: UIViewController {
     }
     
     private func setupUI() {
-        self.lblMinHeight.text = "10 cm"
-        self.lblMaxHeight.text = "300 cm"
-        self.lblMinWeight.text = "0 kg"
+        self.lblMinHeight.text = "120 cm"
+        self.lblMaxHeight.text = "220 cm"
+        self.lblMinWeight.text = "40 kg"
         self.lblMaxWeight.text = "200 kg"
         
         self.backgroundImage.image = UIImage(named: randomImage.randomElement() ?? "12")
